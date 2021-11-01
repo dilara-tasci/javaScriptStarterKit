@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function addToCart(quantity, productName = "Elma"){
     console.log("Sepete Eklendi ürün: " + productName + " adet: " + quantity);
 }
@@ -8,10 +9,24 @@ addToCart(15)
 
 let sayHello =  () => {
     console.log("Hello World!");
+=======
+function addToCart(quantity,productName="Elma") {
+    console.log("Sepete eklendi : ürün : " 
+    + productName + " adet : " + quantity)
+}
+
+//addToCart()
+addToCart(10)
+//addToCart(15)
+
+let sayHello = ()=>{
+    console.log("Hello World!")
+>>>>>>> 913ee0044458ba0401b6785ff179f907b3fb0c1e
 }
 
 sayHello()
 
+<<<<<<< HEAD
 let sayHello2 = function() {
     console.log("Hello World 2");
 }
@@ -25,6 +40,21 @@ function addToCart2(productName, quantity, unitPrice) {
 addToCart2("Elma", 5, 10)
 addToCart2("Armut", 2, 20)
 addToCart2("Limon", 3, 15)
+=======
+let sayHello2 = function () {
+    console.log("Hello World 2")
+}
+
+sayHello2();
+
+function addToCart2(productName, quantity, unitPrice) {
+    
+}
+
+addToCart2("Elma",5,10)
+addToCart2("Armut", 2, 20)
+addToCart2("Limon",3,15)
+>>>>>>> 913ee0044458ba0401b6785ff179f907b3fb0c1e
 
 let product1 = {productName:"Elma", unitPrice:10, quantity:5}
 
