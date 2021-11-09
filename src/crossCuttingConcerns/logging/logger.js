@@ -15,5 +15,3 @@ export class MongoLogger extends BaseLogger {
         console.log("Logged to Mongo " + data)
     }
 }
-
-//commit deneme 9 kasım
